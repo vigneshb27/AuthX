@@ -1,0 +1,86 @@
+<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.0.0/mdb.min.css"
+  rel="stylesheet"
+/>
+
+<style>
+	span{
+		font-size: small;
+	}
+	
+</style>
+<!-- 
+
+<form action="/login" method="POST"> 
+	<input type="text" name="username"
+		placeholder="username"> 
+	<input type="password" name="password"
+		placeholder="password"> 
+	<button>login</button> 
+</form> 
+
+<h1>This is home page</h1> 
+
+<li><a href="/register">Sign up!!</a></li> 
+<li><a href="/login">Login</a></li> 
+<li><a href="/logout">Logout</a></li> 
+ -->
+<div class="h-100 d-flex align-items-center justify-content-center">
+<form class="w-25" action="/login" method="POST">
+	<h3 style="text-align: center;" class="text-primary">Secure App</h3><br> 
+	<!-- Email input -->
+	<div class="form-outline mb-4">
+		<span style="color: grey;">Username</span>
+	  <input type="text" id="form2Example1" class="form-control border-bottom" name="username"/>
+	</div>
+  
+	<!-- Password input -->
+	<div class="form-outline mb-4">
+		<span style="color: grey;">Password</span>
+	  <input type="password" id="form2Example2" class="form-control border-bottom" name="password"/>
+	  
+	</div>
+
+	<span style="color: grey;">OTP</span>
+	<div class="form-outline mb-4 w-25 mx-auto">
+		
+	  <input type="text" id="form2Example2" class="form-control border" name="otp"/>
+	</div>
+  
+  
+	<!-- Submit button -->
+	<button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+  
+	<!-- Register buttons -->
+	<div class="text-center">
+	  <p>Not a member? <a href="/register">Register</a></p>
+	  <p>or sign up with:</p>
+	  <button type="button" class="btn btn-link btn-floating mx-1">
+		<i class="fab fa-facebook-f"></i>
+	  </button>
+  
+	  <button type="button" class="btn btn-link btn-floating mx-1">
+		<i class="fab fa-google"></i>
+	  </button>
+  
+	  <button type="button" class="btn btn-link btn-floating mx-1">
+		<i class="fab fa-twitter"></i>
+	  </button>
+  
+	  <button type="button" class="btn btn-link btn-floating mx-1">
+		<i class="fab fa-github"></i>
+	  </button>
+	</div>
+  </form>
+</div>
